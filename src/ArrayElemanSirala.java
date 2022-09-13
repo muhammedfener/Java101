@@ -12,6 +12,7 @@ public class ArrayElemanSirala {
             System.out.print((i+1) + ". Elemanı: ");
             sayilar[i] = inp.nextInt();
         }
+        Arrays.sort(sayilar);
         System.out.print("Sıralama: " + Arrays.toString(sayilar));
     }
 }
